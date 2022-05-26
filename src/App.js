@@ -7,11 +7,11 @@ function App() {
   const [checkedOne, setCheckedOne] = useState(false);
   const [checkedTwo, setCheckedTwo] = useState(false);
 
-  const handleChangeOne = () => {
+  function handleChangeOne(){
     setCheckedOne(!checkedOne);
   };
 
-  const handleChangeTwo = () => {
+  function handleChangeTwo(){
     setCheckedTwo(!checkedTwo);
   };
 
